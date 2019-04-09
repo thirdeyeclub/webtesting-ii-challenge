@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import './App.css';
 import Dashboard from './Comp/Dashboard';
 import Display from './Comp/Display';
+import styled from 'styled-components';
+
+var Title = styled.p`
+display: flex;
+flex-direction: row;
+margin: 0 auto;
+justify-content:center;`
 
 class App extends Component {
 state ={
@@ -11,7 +18,7 @@ state ={
 
   render() {
     return (
-      <><p>hello world</p>
+      <><Title>Baseball Game</Title>
       <Display/>
       <Dashboard/>
       </>

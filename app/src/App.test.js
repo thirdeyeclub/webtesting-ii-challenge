@@ -21,7 +21,7 @@ describe('APP', () => {
       const {getByText , queryByText} = render(<App />)
       
       //getByText(/hello world/i)
-      expect(queryByText(/hello world/i)).not.toBeNull();
+      expect(queryByText(/baseball game/i)).not.toBeNull();
     });
 
     it('', () => {
