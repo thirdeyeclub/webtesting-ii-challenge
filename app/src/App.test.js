@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {render} from "react-testing-library"
 import App from './App';
+import Display from './Comp/Display';
+import Dashboard from './Comp/Dashboard';
+import Title from './App';
 
 describe('APP', () => {
   
@@ -24,8 +27,16 @@ describe('APP', () => {
       expect(queryByText(/baseball game/i)).not.toBeNull();
     });
 
-    it('', () => {
-      
+    it('display rendered', () => {
+      render(<Display/>);
+    });
+
+    it('dashboard rendered', () => {
+      render(<Dashboard/>);
+    });
+
+    it('title rendered', () => {
+      render(<Title/>);
     });
     
   });
