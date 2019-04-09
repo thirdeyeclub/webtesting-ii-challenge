@@ -1,0 +1,16 @@
+{
+  "name": "webtesting-ii-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/thirdeyeclub/webtesting-ii-challenge.git",
+  "author": "thirdeyeclub <wwwaaavvveeerrr@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-testing-library": "^6.1.2"
+  },
+  "devDependencies": {
+    "jest-dom": "^3.1.3"
+  }
+}
