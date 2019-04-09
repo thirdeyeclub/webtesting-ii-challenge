@@ -16,6 +16,13 @@ describe('APP', () => {
     it('render?', () => {
       render(<App />);
     });
+
+    it('rendered text', () => {
+      const {getByText , queryByText} = render(<App />)
+      
+      //getByText(/hello world/i)
+      expect(queryByText(/hello world/i)).not.toBeNull();
+    });
     
   });
 });
